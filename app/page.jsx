@@ -172,13 +172,6 @@ function Header() {
               />
             </svg>
           </a>
-          <a
-            className="inline-flex min-h-[30px] min-w-[34px] items-center justify-center rounded-full border border-black/[0.09] px-2.5 font-['DM_Mono',monospace] text-[9px] font-medium tracking-[0.04em] text-[var(--muted)] transition-colors duration-150 hover:border-black/15 hover:bg-black/[0.045] hover:text-[var(--ink)]"
-            href="/v1"
-            aria-label="Open the Silo v1 landing page"
-          >
-            v1
-          </a>
           <motion.a
             className="ml-[5px] inline-flex min-h-9 items-center gap-[7px] rounded-full bg-[var(--orange)] px-4 font-['DM_Mono',monospace] text-[9px] font-medium tracking-[0.05em] text-white uppercase transition-colors duration-150 hover:bg-[#ec4e0a] max-sm:ml-[3px] max-sm:min-h-8 max-sm:px-3 max-sm:text-[8px] [&>svg]:size-3.5 [&>svg]:fill-current"
             href="https://github.com/Vic-Orlands/Silo"
@@ -1615,13 +1608,6 @@ function Start() {
       className="relative isolate overflow-x-clip bg-[var(--blue)] px-[5.5vw] pb-7 pt-[150px] max-sm:px-5 max-sm:pb-6 max-sm:pt-[105px]"
       id="start"
     >
-      <div
-        className="absolute left-1/2 top-1/2 z-0 h-80 w-[760px] -translate-x-1/2 -translate-y-[55%] -rotate-[8deg] rounded-[50%] border border-black/6 max-sm:w-155 [&>i]:absolute [&>i]:left-1/2 [&>i]:top-1/2 [&>i]:size-[510px] [&>i]:-translate-x-1/2 [&>i]:-translate-y-1/2 [&>i]:rounded-full [&>i]:border [&>i]:border-black/6 [&>i:nth-child(2)]:size-[210px]"
-        aria-hidden="true"
-      >
-        <i />
-        <i />
-      </div>
       <div className="relative z-[2] mx-auto mb-[125px] max-w-[870px] overflow-visible text-center max-sm:mb-[90px]">
         <Reveal>
           <p className={`${monoLabel} mb-[27px]`}>Start with one file</p>
